@@ -1,0 +1,512 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+:root{
+    /* font */
+    --FONT-FAMILY:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    --FS-HEADING-H1-XL: 2.5rem; 
+    --FS-PARA-HEADING-XL: 1.5rem; 
+    --FS-HEADING-H1-L: 2.2rem; 
+    --FS-PARA-HEADING-L: 1.2rem; 
+    --FS-HEADING-H1-MD: 2.0rem; 
+    --FS-PARA-HEADING-MD: 1rem; 
+    --FS-HEADING-H1-S: 1.8rem; 
+    --FS-PARA-HEADING-S: 1rem; 
+
+}
+body{
+    font-family: var(--FONT-FAMILY);
+}
+.navbar-nav li {
+    margin-left: 1.2rem;
+}
+.sale-hover{
+    text-decoration: none;
+    color: #fff;
+}
+.sale-hover:hover{
+    text-decoration: underline;
+}
+/* .shop-btn-link{
+    text-decoration: none;
+    color: #191919;
+    font-size: 16px;
+}
+.shop-btn{
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    padding: 7px 24px;
+    background-color: #fff;
+}
+.padding-right a img{
+    width: 98%;
+    margin-right: 4px;
+}
+.padding-left a img{
+    width: 98%;
+    margin-right: 4px;
+    float: right;
+}
+.fa-angle-right{
+    color: #fff;
+    margin-left: 4px;
+    font-size: 1.2rem;
+}
+.text-hover:hover, .google-play-link-hover:hover{
+    text-decoration: underline;
+}
+.img-bg{
+    background-image: url(../image/trimmer.png);
+    background-repeat: none;
+}
+.width:hover, .box-shadow:hover{
+    box-shadow: -2px 2px 2px -1px rgba(0, 0, 255, .2);
+}
+.pa{
+    position: absolute;  
+    top: 0;
+}
+.icons {
+    color:#e3e3e3;
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+.qr-text{
+    border-bottom: solid 1px #fff;
+}
+.second-row img{
+    width: 4px;
+    height: 4px;
+}
+.text2{
+    text-align: left;
+}
+li .text, .text2{
+    color: #fff;
+    opacity: 0.5;
+}
+footer{
+    position: relative;
+}
+.height-8{
+    height: 30rem;
+}
+.qr-row{
+    border: solid 1px #fff;
+    height: 175px;
+    border-radius: 15px;
+} */
+/* .img-sizer{
+    width: 1.4rem;
+    height: 1.4rem;
+    margin-right: 1rem;
+} */
+@media (min-width:1401px) {
+    .aboslute-first-row{
+        left: 7rem;
+        top: 14rem;
+    }
+    .cropped-ofp {
+        width: 100%; 
+        object-fit: cover;
+        object-position: 80% 100%; 
+        }
+    .row-two{
+        height: 580px;
+    }
+    .row-two img{
+        height: 100%;
+        width: 100%;    
+    }
+    .fs-heading{
+        font-size: var(--FS-HEADING-H1-XL) ;
+    }
+    .fs-paragraph{
+        font-size: var(--FS-PARA-HEADING-XL);
+    }
+    .aboslute-second-row{
+        left: 7rem;
+        top: 52rem;
+    }
+    .offer-price{
+        font-size: 1.8rem;
+        font-weight: bold;
+        margin-right: 1rem;
+    }
+    .original-price{
+        color: rgba(255, 255, 255, 0.508);
+        text-decoration: line-through;
+    }
+    .fs-small-paragraph{
+        font-size: var(--FS-PARA-HEADING-L);
+    }
+    .fs-small-heading{
+        font-size: var(--FS-HEADING-XL);
+    }
+    .aboslute-thrid-row{
+        top: 2rem;
+    }
+    .img-height{
+        height: 500px;
+    }
+    .bg-img{
+        background-image: url("../img/trimmer.png");
+        background-size: contain;
+        background-repeat: none;
+        top: 15rem;
+        left: 6rem;
+        width: 13rem;
+        height: 11rem;
+    }
+    .ml-md{
+        margin-left: 2.5rem;
+    }
+    .width{
+        width: 99%;
+    }
+    .height-vh{
+        height: 32rem;
+    }
+    .height-img{
+        height: 32rem;
+    }
+    .absolute-fourth{
+        top: 2rem;
+        margin: 0rem 5rem;
+    }
+    .aboulte-fivth{
+        top: 2rem;
+        margin: 0rem 3rem;
+    }
+}
+@media (min-width:993px) and (max-width:1400px) {
+    .aboslute-first-row{
+        left: 7rem;
+        top: 14rem;
+    }
+    .cropped-ofp {
+        width: 100vw; 
+        object-fit: cover;
+        object-position: 80% 100%; 
+        }
+    .row-two{
+        height: 580px;
+    }
+    .row-two img{
+        height: 100%;
+        width: 100%;    
+    }
+    .fs-heading{
+        font-size: var(--FS-HEADING-H1-XL) ;
+    }
+    .fs-paragraph{
+        font-size: var(--FS-PARA-HEADING-XL);
+    }
+    .aboslute-second-row{
+        left: 7rem;
+        top: 52rem;
+    }
+    .offer-price{
+        font-size: 1.8rem;
+        font-weight: bold;
+        margin-right: 1rem;
+    }
+    .original-price{
+        color: rgba(255, 255, 255, 0.508);
+        text-decoration: line-through;
+    }
+    .fs-small-paragraph{
+        font-size: var(--FS-PARA-HEADING-L);
+    }
+    .fs-small-heading{
+        font-size: var(--FS-HEADING-XL);
+    }
+    .aboslute-thrid-row{
+        top: 2rem;
+    }
+    .img-height{
+        height: 500px;
+    }
+    .bg-img{
+        background-image: url("../img/trimmer.png");
+        background-size: contain;
+        background-repeat: none;
+        top: 20rem;
+        left: 4rem;
+        width: 9.5rem;
+        height: 8rem;
+    }
+    .ml-md{
+        margin-left: 2.5rem;
+    }
+    .width{
+        width: 98%;
+    }
+    .height-vh{
+        height: 32rem;
+    }
+    .height-img{
+        height: 32rem;
+    }
+    .absolute-fourth{
+        top: 2rem;
+        margin: 0rem 2rem;
+    }
+    .aboulte-fivth{
+        top: 2rem;
+        margin: 0rem 3rem;
+    }
+}
+@media (min-width:768px) and (max-width:993px) {
+    .aboslute-first-row{
+        left: 5rem;
+        top: 10rem;
+    }
+    .cropped-ofp {
+        width: 100vw; 
+        object-fit: cover;
+        object-position: 80% 70%; 
+        }
+        .row-two{
+            height: 400px;
+        }
+        .row-two img{
+            height: 100%;
+            width: 100%;    
+        }
+        .fs-heading{
+            font-size: var(--FS-HEADING-H1-L) ;
+        }
+        .fs-paragraph{
+            font-size: var(--FS-PARA-HEADING-L);
+        }
+        .aboslute-second-row{
+            left: 5rem;
+            top: 36rem;
+        }
+        .offer-price{
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-right: 1rem;
+        }
+        .original-price{
+            color: rgba(255, 255, 255, 0.508);
+            text-decoration: line-through;
+        }
+        .aboslute-thrid-row{
+            top: 2rem;
+        }
+        .fs-small-paragraph{
+            font-size: var(--FS-PARA-HEADING-MD);
+        }
+        .fs-small-heading{
+            font-size: var(--FS-HEADING-H1-S);
+        }
+        .aboslute-thrid-row{
+            top: 2rem;
+        }
+        .width{
+            width: 96%;
+        }
+        .spl-margin{
+            margin:0rem 1rem;
+        }
+        .height-vh{
+            height: 30rem;
+        }
+        .height-img{
+            height: 30rem;
+        }
+        .bg-img{
+            background-image: url("../img/trimmer.png");
+            background-size: contain;
+            background-repeat: none;
+            top: 20rem;
+            left: 3rem;
+            width: 7.5rem;
+            height: 6rem;
+        }
+        .absolute-fourth{
+            top: 2rem;
+            margin: 0rem 2rem;
+        }
+        .aboulte-fivth{
+            top: 2rem;
+            margin: 0rem 3rem;
+        }
+    
+}
+@media (min-width:566px) and (max-width:768px) {
+    .aboslute-first-row{
+        left: 5rem;
+        top: 10rem;
+    }
+    .row-two{
+        height: 460px;
+    }
+    .row-two img{
+        height: 100%;
+        width: 100%;    
+    }
+    .cropped-ofp {
+        width: 100%; 
+        object-fit: cover;
+        object-position: 80% 100%; 
+        }
+        .fs-heading{
+            font-size: var(--FS-HEADING-H1-XL) ;
+        }
+        .fs-paragraph{
+            font-size: var(--FS-PARA-HEADING---FS-HEADING-H1-XL);
+        }
+        .aboslute-second-row{
+            left: 5rem;
+            top: 38rem;
+        }
+        .offer-price{
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-right: 1rem;
+        }
+        .original-price{
+            color: rgba(255, 255, 255, 0.508);
+            text-decoration: line-through;
+        }
+        .aboslute-thrid-row{
+            top: 4rem;
+        }
+        .fs-small-paragraph{
+            font-size: var(--FS-PARA-HEADING-L);
+        }
+        .fs-small-heading{
+            font-size: var(--FS-HEADING-H1-MD);
+            margin-right: 1rem;
+        }
+        .width-sub{
+            height: 33.5rem;
+        }
+        .height-img{
+            height: 33.5rem;
+        }
+        .bg-img{
+            background-image: url("../img/trimmer.png");
+            background-size: contain;
+            background-repeat: none;
+            top: 18rem;
+            left: 3rem;
+            width: 12rem;
+            height: 11rem;
+        }
+        .row-width-labtop{
+            margin: 0rem 1rem;
+        }
+        .row-width-trimmer{
+            margin-right: 1rem;
+        }
+        .absolute-fourth, .aboulte-fivth{
+            top: 5rem;
+            left: 2rem;
+        }
+        .aboulte-fivth{
+            width: 16rem;
+        }
+        .aboulte-fivth h1{
+            margin-left: 1.5rem;
+        }
+}
+        
+@media (max-width:566px) {
+    .aboslute-first-row{
+        left: 5rem;
+        top: 10rem;
+    }
+    .row-two{
+        height: 460px;
+    }
+    .row-two img{
+        height: 100%;
+        width: 100%;    
+    }
+    .cropped-ofp {
+        width: 100%; 
+        object-fit: cover;
+        object-position: 80% 100%; 
+        }
+        .fs-heading{
+            font-size: var(--FS-HEADING-H1-MD) ;
+        }
+        .fs-paragraph{
+            font-size: var(--FS-PARA-HEADING-MD);
+        }
+        .aboslute-second-row{
+            left: 5rem;
+            top: 37rem;
+        }
+        .offer-price{
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-right: 1rem;
+        }
+        .original-price{
+            color: rgba(255, 255, 255, 0.508);
+            text-decoration: line-through;
+        }
+        .fs-small-paragraph{
+            font-size: var(--FS-PARA-HEADING-xl);
+        }
+        .fs-small-heading{
+            font-size: var(--FS-HEADING-H1-L);
+        }
+        .row-width-labtop{
+            margin: 0rem 1rem;
+        }
+        .row-width-trimmer{
+            margin-right: 1rem;
+        }
+        .aboslute-thrid-row{
+            top: 3rem;
+        }
+        .fs-small-paragraph{
+            font-size: var(--FS-PARA-HEADING-S);
+        }
+        .fs-small-heading{
+            font-size: var(--FS-HEADING-H1-S);
+            margin-right: 1rem;
+        }
+        .width-sub{
+            height: 22rem;
+        }
+        .height-img{
+            height: 22rem;
+        }
+        .bg-img{
+            background-image: url("../img/trimmer.png");
+            background-size: contain;
+            background-repeat: none;
+            top: 13rem;
+            left: 1rem;
+            width: 10rem;
+            height: 8rem;
+        }
+        .row-width-labtop{
+            margin: 0rem 1rem;
+        }
+        .row-width-trimmer{
+            margin-right: 1rem;
+        }
+        .absolute-fourth, .aboulte-fivth{
+            top: 2rem;
+            left: 2rem;
+        }
+        .aboulte-fivth{
+            width: 10rem;
+        }
+        .aboulte-fivth h1{
+            margin-left: 1.5rem;
+
+        }
+    }
+       
